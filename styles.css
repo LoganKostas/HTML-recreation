@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 16px;
+    
+}
+
+.flex-container{
+    justify-content: center;
+}
+
+ul{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.griot-theater{
+    font-size: 20px;
+    /* text-align: left; */
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:focus{
+    color: rgb(177, 170, 170);
+}
+
+.top-container h4{
+    position: relative;
+    left: 700px;
+    nav-down: 100px;
+    top: 300px;
+    font-size: 80px;
+    color: white;
+}
+
+#background{
+    width:100%;
+    height: 500px;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-container{
+    /* width: 100%; */
+    /* align-items: stretch; */
+    /* border:3px solid red; */
+    
+}
+
+.bottom-container{
+    /* border: 3px solid red; */
+    min-height: 850px;
+    flex-direction: column;
+}
+
+.bottom1{
+    /* border: 3px solid green; */
+    min-height: 50px;
+    /* text-align: left; */
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.bottom2{
+    /* border:3px solid orange; */
+    min-height: 200px;
+}
+
+.bottom3{
+    /* border:3px solid black; */
+    min-height: 200px;
+}
+
+.bottom4{
+    /* border:3px solid blue; */
+    min-height: 200px;
+
+}
+
+.bottom5{
+    /* border:3px solid gray; */
+    min-height: 200px;
+}
+
+.bottom2 p{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.bottom3 p{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.bottom4 p{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    /* flex-direction: row; */
+}
+
+.bottom5 p{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 25vh;
+    margin-top: 0px;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+}
+
+.readmore{
+    position: relative;
+    left: 1500px;
+    bottom: 180px;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#chicago{
+    width: 170px;
+    margin: 50px;
+}
+
+/* .icons{ */
+    /* bottom: 50px; */
+    /* color: white; */
+    
+/* } */
+
+i{
+    color: red;
+    position: relative;
+    bottom:150px ;
+    left: 250px;
+    
+}
+
+.icontext{
+    color: red;
+    position: relative;
+    bottom:240px ;
+    left: 280px;   
+}
+
+.ititle1{
+    color: red;
+    position: relative;
+    bottom:390px ;
+    left: 300px; 
+    font-size: 40px;
+    
+}
+
+.ititle2{
+    color: red;
+    position: relative;
+    bottom:435px ;
+    left: 1510px; 
+    font-size: 40px; 
+}
+
+.ititle3{
+    color: red;
+    position: relative;
+    bottom:485px ;
+    left: 850px; 
+    font-size: 40px;
+}
+
+.description{
+    color: red;
+    position: relative;
+    bottom:485px ;
+    left: 870px; 
+    
+}
+
+.description2{
+    color: red;
+    position: relative;
+    bottom:595px ;
+    left: 1510px; 
+    /* font-size: 40px;   */
+}
